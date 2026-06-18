@@ -1,0 +1,62 @@
+======================================================================
+BOOK A DOCTOR - HEALTHCARE BOOKING SYSTEM INFO & RUN GUIDE
+======================================================================
+
+1. CODEBASE SUMMARY
+----------------------------------------------------------------------
+This is a full-stack MERN (MongoDB, Express, React, Node.js) web 
+application for booking doctor appointments.
+
+* Frontend (client/):
+  - Framework: React (built with Vite)
+  - State Management: Redux Toolkit
+  - Styling: React-Bootstrap / Bootstrap
+  - Navigation: React Router DOM (v6)
+  - Features: Patient, Doctor, and Admin dashboards, search/filter 
+    doctors, make appointments, real-time toast notifications, form 
+    validations.
+
+* Backend (server/):
+  - Framework: Express.js (Node.js REST API)
+  - Database: MongoDB (using Mongoose)
+  - Authentication: JSON Web Tokens (JWT)
+  - File Uploads: Multer and Cloudinary integration
+  - Fallback: Uses an in-memory MongoDB Server (mongodb-memory-server)
+    if no standard MongoDB instance is active on the local machine.
+
+
+2. HOW TO RUN FROM THE TERMINAL
+----------------------------------------------------------------------
+Make sure Node.js and npm are installed.
+
+Step A: Run the Backend Server
+------------------------------
+1. Open a new terminal tab/window and go to the server directory:
+   cd "Side projects/Doctor Appointment/server"
+
+2. Install the server dependencies (if not already done):
+   npm install
+
+3. Run the development server (runs on port 5000):
+   npm run dev
+
+
+Step B: Run the Frontend Client
+------------------------------
+1. Open a second terminal tab/window and go to the client directory:
+   cd "Side projects/Doctor Appointment/client"
+
+2. Install the client dependencies (if not already done):
+   npm install
+
+3. Run the development server (runs on port 5173):
+   npm run dev
+
+
+Step C: Access the Application
+------------------------------
+1. Open your web browser and navigate to:
+   http://localhost:5173
+
+Enjoy booking doctor appointments!
+======================================================================

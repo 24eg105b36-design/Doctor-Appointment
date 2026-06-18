@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #007bff;
+  --bg-soft: #f8f9fa;
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: #333;
+  background-color: var(--bg-soft);
+}
+
+.main-content {
+  min-height: calc(100vh - 80px);
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  transition: transform 0.2s;
+  border-radius: 12px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #e0f2ff 0%, #ffffff 100%);
+    padding: 100px 0;
+}
